@@ -8,8 +8,8 @@ github:
 baseurl: ""
 description:
 meta_description:
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+motto:
+banner:
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -22,5 +22,5 @@ github_username: peiy.tian
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+baidu_analysis:
 
