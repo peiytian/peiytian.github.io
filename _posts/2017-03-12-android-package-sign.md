@@ -24,11 +24,13 @@ jarsigner -verbose -keystore test.keystore -signedjar -TestSigned.apk TestSign.a
 ```
 
 - android 查看证书签名
+
 ```
 keytool -list -keystore -v -keystore D:\workspace\BH_YB_SFSS_DAT-AS\FastInsSS -v
 keytool -list -keystore -v -keystore C:\Users\Administrator\Desktop\test.jks
 ```
 - 查看app内签名
+
 ```
 keytool -printcert -file C:\Users\Administrator\Desktop\test\META-INF/CERT.RSA
 ```
